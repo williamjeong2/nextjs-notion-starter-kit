@@ -121,9 +121,9 @@
 .notion-quote {
   padding: 0.2em 0.75em;
   line-height: 1.5;
-  font-style: italic;
+  /* font-style: italic; */
   font-size: 1.2em;
-  border-left: 4px solid #67bdfc;
+  border-left: 4px solid #1d77f4;
 }
 
 .notion-h1,
