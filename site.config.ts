@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Your voice, our subtitles. SubMind.',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  domain: 'submind',
   author: 'SubMind',
 
   // open graph metadata (optional)
@@ -42,11 +42,14 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
-  pageUrlOverrides: null,
+  pageUrlOverrides: {
+    '/services': 'c95180367d084b749a95151b75beddef',
+    '/reviews': '35addbaf4b0a4a0b846297500375bcfb',
+    '/news': '1df9af50e530491fb777817bfefdd55e',
+    '/qna': '02b1018403ad4eadb6a37e6fc14580c4',
+    '/contact': '8778237864614f96885efc16daa26a67'
+  },
+  // pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
